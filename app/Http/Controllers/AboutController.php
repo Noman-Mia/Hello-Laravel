@@ -1,0 +1,11 @@
+<?php
+
+namespace App\Http\Controllers;
+
+
+class AboutController extends Controller
+{
+  function about(){
+    return response('this is about');
+  }
+}
